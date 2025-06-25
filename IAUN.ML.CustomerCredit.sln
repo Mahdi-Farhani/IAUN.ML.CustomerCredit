@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAUN.ML.CustomerCredit", "IAUN.ML.CustomerCredit\IAUN.ML.CustomerCredit.csproj", "{3F4305C7-149A-47A4-A530-3FB4B074166A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F4305C7-149A-47A4-A530-3FB4B074166A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F4305C7-149A-47A4-A530-3FB4B074166A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F4305C7-149A-47A4-A530-3FB4B074166A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F4305C7-149A-47A4-A530-3FB4B074166A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BD62E0B-DBC2-4782-A266-583C28658325}
+	EndGlobalSection
+EndGlobal
