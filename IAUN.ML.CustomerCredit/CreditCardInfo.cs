@@ -2,7 +2,10 @@
 
 public class CreditCardInfo
 {
-    public string CustomerId { get; set; }=string.Empty;
+    public string CustomerId { get; set; } = string.Empty;
+    public string Label { get; set; } = string.Empty;
+    public bool IsCenter { get; set; }
+
     public double? Balance { get; set; }
     public double? BalanceFrequency { get; set; }
     public double? Purchases { get; set; }
@@ -20,5 +23,5 @@ public class CreditCardInfo
     public double? MinimumPayments { get; set; }
     public double? PRCFullPayment { get; set; }
     public int? Tenure { get; set; }
-    
+
 }

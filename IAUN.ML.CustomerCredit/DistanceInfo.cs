@@ -4,8 +4,7 @@ namespace IAUN.ML.CustomerCredit;
 
 public class DistanceInfo
 {
-    public string FirstRecordId { get; set; }=string.Empty;
-    public string SecondRecordId { get; set; } = string.Empty;
+    public (string,string) Key { get; set; }
     public double Distance { get; set; }
 
 }
