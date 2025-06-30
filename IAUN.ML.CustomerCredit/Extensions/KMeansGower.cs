@@ -70,8 +70,7 @@ public class KMeansGower<T> where T : class, new()
         return sum / dimension;
     }
 
-    public (List<T> Centers, Dictionary<int, List<T>> Clusters, double Inertia)
-        Run(int k, int maxIter = 100)
+    public (List<T> Centers, Dictionary<int, List<T>> Clusters, double Inertia) Run(int k, int maxIter = 100)
     {
         var rnd = new Random();
 
@@ -123,7 +122,7 @@ public class KMeansGower<T> where T : class, new()
                                     .Where(v => v != null)
                                     .Select(v => Convert.ToDouble(v))
                                     .ToList();
-                    double avg = values.Any() ? values.Average() : 0.0;
+                    double avg = values.Count != 0 ? values.Average() : 0.0;
                     p.SetValue(ctr, Convert.ChangeType(avg, Nullable.GetUnderlyingType(p.PropertyType) ?? p.PropertyType));
                 }
                 
