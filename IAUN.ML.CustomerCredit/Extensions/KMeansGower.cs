@@ -30,8 +30,8 @@ public class KMeansGower<T> where T : class, new()
                        })];
 
         int m = numericalPropertiesInfo.Count;
-        mins = Enumerable.Repeat(double.MaxValue, m).ToArray();
-        maxs = Enumerable.Repeat(double.MinValue, m).ToArray();
+        mins = [.. Enumerable.Repeat(double.MaxValue, m)];
+        maxs = [.. Enumerable.Repeat(double.MinValue, m)];
         foreach (var x in this.data)
         {
             for (int j = 0; j < m; j++)
